@@ -1,1 +1,52 @@
+* {
+    Box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
 
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1rem;
+}
+
+nav {
+    display: block;
+    background-color: black;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+.box {
+    height: 1000px;
+    border-bottom: 1px solid grey;
+    padding-top: 50px;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#Home {
+    background-color: blue;
+}
+
+#About {
+    background-color: purple;
+}
+
+#Contact {
+    background-color: rebeccapurple;
+}
